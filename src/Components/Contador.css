@@ -1,0 +1,31 @@
+.contenedorPrincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: whitesmoke;
+    min-height: 100vh;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.numerito {
+    font-size: 4rem;
+    padding: 2rem;
+}
+
+.botoncito {
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.botoncito:active {
+    background: grey;
+}

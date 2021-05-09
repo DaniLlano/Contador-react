@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import ContenedorDeEstado from './ContenedorDeEstado'
 import './Contador.css'
 
 function Contador() {
@@ -26,9 +27,7 @@ function Contador() {
             <div className="contenedor">
                 <button className="botoncito" onClick={restarNumerito}>Restar</button>
             
-                <h1 className="numerito">
-                    {contador}
-                </h1>
+                <ContenedorDeEstado numero={contador}/>
             
                 <button className="botoncito" onClick={sumarNumerito}>Sumar</button>
             </div>
